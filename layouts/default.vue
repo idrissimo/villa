@@ -57,6 +57,21 @@
         
         </figure>
         </div><!-- #page11-->
+        <div id="caracts" class="flex grd-wrapper">
+            <div class="col grd__box" id="box1">
+                <h3><i class="ri-home-2-fill"></i> Le logement</h3>
+                <p>Charmante Villa avec piscine</p>
+            </div>
+            <div class="col grd__box" id="box2">
+                <h3><i class="ri-map-pin-2-fill"></i> Location</h3>
+                <p>Marrakech / LallaTakerkoust</p>
+            </div>
+            <div class="col grd__box" id="box3">
+                <h3><i class="ri-money-dollar-circle-fill"></i> Prix</h3>
+                <p>dignissimos fugiat sapiente</p>
+            </div>
+        </div><!-- #caracts-->
+
     </div><!-- #main-->
 
 
@@ -292,6 +307,24 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+/*********** caracts ******************/
+#caracts h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.grd-wrapper {
+    padding: 3rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    
+}
+.grd__box {
+    min-height: 100px;
+    flex:1 1 auto;
+    color: var(--primary-color);
+   
 }
 
 
