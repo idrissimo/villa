@@ -7,7 +7,7 @@
             <a href="#"><i class="ri-instagram-fill"></i></a>
         </div>
         <div id="footer-menu">
-            <ul id="menu-footer1" class="menu flex gap-15">
+            <ul id="menu-footer1" class="menu flex gap-4">
                 <li><a href="https://yoyo-rent.com/qui-sommes-nous/">Qui sommes-nous</a></li>
                 <li><a href="https://yoyo-rent.com/conditions-de-location/">Conditions générales de location</a></li>
                 <li><a href="https://yoyo-rent.com/contactez-nous/">Contactez-nous</a></li>
