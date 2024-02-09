@@ -6,10 +6,10 @@
             <p>Villa privé de plus de 2000m’ avec une grande piscine, 3 chambres dont une master avec dressing, cuisine américaine équipée, salon, 2 salles de bain, sanitaires haut de gamme, terrasse avec une vue sur les montagnes de l’Atlas, piscine et jardin, à proximité du désert d’Agafay, circuits QUAD et Buggy, 5 min en voiture du Lac Lalla Takerkousst…</p>
             <p>Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Takerkousst. Jet Ski au Lac - Circuits en Quad/Buggy - Baptême de Parapente...</p>
                   
-            <div id="caracteristiques">
-                <h3>Ce que Nous proposant:</h3>
+            <div id="caracteristiques" class="mb-8">
+                <h3 class="text-green text-3xl lg:text-4xl font-display lg:ml-44 tracking-tight">Ce que Nous proposant:</h3>
                        
-                <div class="flex">
+                <div class="flex gap-4">
                     <ul>
                         <li><i class="ri-flower-fill"></i> Vue sur le jardin</li> 
                         <li><i class="ri-bowl-fill"></i> Cuisine</li> 
@@ -25,6 +25,7 @@
                 </div>
                         
             </div>
+            <Contact></Contact>
             <Maps></Maps>
         </div>
         <aside class="lg:absolute pt-12 lg:pt-0 -rotate-[4deg] -top-8 lg:-left-96">

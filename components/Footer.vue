@@ -1,5 +1,8 @@
 <template>
  <div id="footer-wrapper">
+    <div id="bottom-banner">
+        ici une banniere
+    </div>
     <div id="footer">
         <div id="social-icons">
             <a href="#"><i class="ri-facebook-circle-fill"></i></a> 

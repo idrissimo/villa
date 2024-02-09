@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    /* --primary-color: #4A3A2A; */
+    --third-color:#BC5C29;
+    --primary-color: #404A38;
+    /* --secondary-color: #E9DBC1; */
+    --secondary-color: #F7ECDC;
+}
+
+.text-green {
+    color: var(--primary-color);
+}
