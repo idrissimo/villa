@@ -9,6 +9,7 @@
                 <div class="form-control"><input type="email" name="email" id="" placeholder="Email" v-model="LeMail"></div>
             </div>
             <div class="form-control"><input type="date" name="date" v-model="laDate" ></div>
+            <div class="form-control"><input type="date" name="todate" v-model="toDate" ></div>
             <div class="form-control">
                 <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
             </div>
@@ -23,6 +24,7 @@
 import { ref } from 'vue';
 
 const laDate = ref(tdate());
+const toDate = ref(tdate());
 const leName = ref('');
 const LeMail = ref('');
 

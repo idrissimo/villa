@@ -26,14 +26,15 @@
                         
             </div>
             <Contact></Contact>
-            <Maps></Maps>
+            <!-- <Maps></Maps> -->
         </div>
         <aside class="lg:absolute pt-12 lg:pt-0 -rotate-[4deg] -top-8 lg:-left-96">
                     <img src="~/assets/images/jardin-04.jpg" class="" width="650" alt="La Borghesiana Romana">
                     <p class="hidden lg:block font-display text-3xl text-tan text-right mt-2 mr-4">41.872490º, 12.664360º</p>
         </aside>
         <aside class="">
-            <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] lg:block absolute -left-[320px] top-[520px]" width="430" alt="Another picture of the grounds at La Borghesiana Romana">
+            <!-- <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] lg:block absolute -left-[320px] top-[520px]" width="430" alt="Another picture of the grounds at La Borghesiana Romana"> -->
+            <Maps class="theMap lg:absolute rotate-[5deg] lg:block absolute -left-[320px] top-[520px]" width="430"></Maps>
             <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] -right-16 top-24" width="430" alt="Another picture of the grounds at La Borghesiana Romana">
             <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] -right-16 top-24" width="430" alt="Another picture of the grounds at La Borghesiana Romana">
             <img src="~/assets/images/chambre-22.jpg" class="lg:absolute -rotate-[6deg] -right-28 top-[320px]" width="360" alt="Yet another Another picture of the grounds at La Borghesiana Romana">
@@ -57,14 +58,14 @@
     text-transform: uppercase;
 }
 
-.pageIntor img {
+.pageIntor img,.theMap {
     border: 5px solid white;
 }
 
-#map {
+/* #map {
     padding-bottom: 3rem;
     border-bottom: 1px solid var(--primary-color);
-}
+} */
 
 #map iframe {
     max-width: 100%;
