@@ -2,7 +2,7 @@
 <div class="villa-section" id="section3">
             <div class="container">
                 <div class="max-w-2xl lg:max-w-7xl mx-auto px-4 md:px-8">
-                    <h1 class="text-green tracking-tight z-10 villa-mb-2">Gallerie</h1>
+                    <h3 class="text-green text-3xl lg:text-4xl font-display tracking-tight font-bold mb-6">GALLERIE</h3>
                     <div id="gallery">
             
                         <div class="container">
@@ -23,7 +23,7 @@
                                 <!-- <li>
                                     <img src="~/assets/images/cuisine-1.jpg" alt="" />
                                     <div class="overlay"><span>Cuisine</span></div>
-                                </li>
+                                </li> 
                                 <li>
                                     <img src="~/assets/images/cuisine-3.jpg" alt="" />
                                     <div class="overlay"><span>Image title88</span></div>

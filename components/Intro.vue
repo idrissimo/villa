@@ -6,8 +6,8 @@
             <p>Villa privé de plus de 2000m’ avec une grande piscine, 3 chambres dont une master avec dressing, cuisine américaine équipée, salon, 2 salles de bain, sanitaires haut de gamme, terrasse avec une vue sur les montagnes de l’Atlas, piscine et jardin, à proximité du désert d’Agafay, circuits QUAD et Buggy, 5 min en voiture du Lac Lalla Takerkousst…</p>
             <p>Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Takerkousst. Jet Ski au Lac - Circuits en Quad/Buggy - Baptême de Parapente...</p>
                   
-            <div id="caracteristiques" class="mb-8">
-                <h3 class="text-green text-3xl lg:text-4xl font-display lg:ml-44 tracking-tight">Ce que Nous proposant:</h3>
+            <div id="caracteristiques" class="mb-8 mt-8">
+                <h3 class="text-green text-3xl lg:text-4xl font-display lg:ml-44 tracking-tight">Nous proposant:</h3>
                        
                 <div class="flex gap-4">
                     <ul>
@@ -23,7 +23,8 @@
                     </ul>
 
                 </div>
-                        
+                font-family: 'Inter';
+    font-weight: bold;
             </div>
             <Contact></Contact>
             <!-- <Maps></Maps> -->
@@ -51,11 +52,13 @@
 <style>
 .pageIntor {
     
-    margin-bottom:4rem;
+    /* margin-bottom:4rem; */
     padding-bottom: 0rem;
 }
 .pageIntor h2{
     text-transform: uppercase;
+    font-family: 'Inter';
+    font-weight: bold;
 }
 
 .pageIntor img,.theMap {
@@ -74,9 +77,12 @@
 #caracteristiques ul {
     list-style: none;
 }
-#caracteristiques h3,#map h3 {
+#caracteristiques h3,#map h3,#contactus h3 {
     color: var(--primary-color);
     margin: 1rem 0;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-transform: uppercase;
 }
 #caracteristiques i {
     color: var(--primary-color);
