@@ -32,6 +32,43 @@
   </div>
 </template>
 
+<script setup>
+import {ref,onMounted} from 'vue'
+import { gsap } from "gsap";
+
+const navBarAnimation = ()=>{
+    gsap.to("#nav-part1 svg", {
+    transform: "translateY(-100%)",
+    scrollTrigger: {
+        trigger: "#page11",
+        scroller: "#main",
+        start: "top 0",
+        end: "top -5%",
+        scrub: true,
+    },
+    });
+    gsap.to("#nav-part2 #links", {
+        transform: "translateY(-100%)",
+        opacity: 0,
+        scrollTrigger: {
+        trigger: "#page11",
+        scroller: "#main",
+        start: "top 0",
+        end: "top -5%",
+        scrub: true,
+        },
+    });
+}
+
+onMounted(()=>{
+    //navBarAnimation();
+})
+
+
+
+
+</script>
+
 <style>
 /*General */
 * {

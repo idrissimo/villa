@@ -24,6 +24,10 @@
       </div>
     </div> <!-- .nav -->
 </template>
+
+<script setup>
+    
+</script>
 <style>
 #nav {
     /* height: 100px; */

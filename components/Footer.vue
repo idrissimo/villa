@@ -1,7 +1,7 @@
 <template>
  <div id="footer-wrapper">
     <div id="bottom-banner">
-        ici une banniere
+        <img src="~/assets/images/backyard.jpg" alt="">
     </div>
     <div id="footer">
         <div id="social-icons">
@@ -27,7 +27,7 @@
 
 </template>
 
-<style>
+<style lang="scss">
 #footer-wrapper {
     background-color: var(--primary-color);
     color: white;
@@ -48,6 +48,31 @@
 
 #footer #social-icons, #footer-logo i {
     font-size: 1.5rem;
+}
+
+#bottom-banner {
+    position: relative;
+    height: 200px;
+
+    &::before {
+        content: '';
+        background-color: rgba($color: #404a38, $alpha: 0.8);
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+
 }
 
 
