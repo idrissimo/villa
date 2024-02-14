@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss'
   ],
+  tailwindcss: {
+    configPath: '~/tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css',
+  },
   app:{
     head: {
       viewport: 'width=device-width, initial-scale=1.0',

@@ -12,13 +12,15 @@
         </svg>
       </div>
       <div id="nav-part2">
-          <div id="links">
-            <a href="#">Reservez</a>
-            <a href="#">Contactez-nous</a>
-            <a href="#">Localisation</a>
+          <div id="links" :class="{ mob: isMobile }">
+            <ul class="sm:flex mt-28 sm:mt-0 ">
+                <li><a href="#" class="text-3xl sm:text-base font-semibold">Reservez</a></li>
+                <li><a href="#" class="text-3xl sm:text-base font-semibold">Contactez-nous</a></li>
+                <li> <a href="#" class="text-3xl sm:text-base font-semibold">Localisation</a></li>
+            </ul>
           </div>
           <div id="icons">
-            <i class="ri-menu-fill"></i>
+            <i @click="toggleMenu" class="ri-menu-fill"></i>
             <i class="ri-shopping-cart-2-line"></i>
           </div>
       </div>
@@ -26,9 +28,42 @@
 </template>
 
 <script setup>
+import {ref} from 'vue'
+import gsap from 'gsap'
+
+//.mob class toggling
+const isMobile = ref(false)
+
+function toggleMenu(){
+    //toggle the value of isMobile
+    isMobile.value = (isMobile.value)? false : true;
+
+    //show or hide the mobile menu
+    if(isMobile.value){
+        gsap.to('#links',{
+            duration:1,
+            display:'block',
+            className:'mob',
+            height:'50vh'
+        })
+
+    }else{
+        gsap.to('#links',{
+            duration:1,
+            display:'none',
+            className:'mob',
+            height:'0vh'
+        })
+
+    }
+    
+
+}
+
+
     
 </script>
-<style>
+<style lang="scss">
 #nav {
     /* height: 100px; */
     width: 100%;
@@ -50,6 +85,27 @@
 
 #links {
     padding: 10px;
+    // &.mob{
+    //     padding: 10px;
+    //     display: block;
+    //     position: absolute;
+    //     /* position: fixed; */
+    //     background-color:black;
+    //     width: 100%;
+    //     height: 50vh;
+    //     top: 0;
+    //     left: 0;
+    //     z-index: -1;
+        
+    // }
+    
+    position: absolute;
+    background-color:black;
+    width: 100%;
+    height: 0vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #nav-part1 {
@@ -68,7 +124,7 @@
     text-decoration: none;
     color: white;
     font-weight: 500;
-    font-size: 14px;
+    // font-size: 14px;
     margin: 0 20px;
 }
 
@@ -82,5 +138,6 @@
     font-size: 18px;
     margin: 0 20px;
     font-weight: 100;
+    cursor: pointer;
 }
 </style>
