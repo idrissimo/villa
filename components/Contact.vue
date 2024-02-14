@@ -1,6 +1,6 @@
 <template>
     <div id="contactus">
-        <h3 class="text-green text-3xl lg:text-4xl font-display tracking-tight">Contactez-nous</h3>
+        <h3 id="booking" class="text-green text-3xl lg:text-4xl font-display tracking-tight">Contactez-nous</h3>
         <form action="" id="contact">
             <div class="flex gap-2">
                 <div class="form-control"><input type="text" name="name" id="" placeholder="name" v-model="leName"></div>

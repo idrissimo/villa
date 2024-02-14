@@ -129,9 +129,6 @@ body {
 
 
 /* media queries */
-
-@media (max-width:600px) {
-
 #nav {
     /* height: 100px; */
     width: 100%;
@@ -214,33 +211,13 @@ body {
     transform: translate(-50%, -50%);
 }
 
-
-
-#page3 {
-    min-height: 120vh;
-    width: 100%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.child {
-    height: 54vh;
-    width: 88vw;
-    /* background-color: red; */
-    /* border: 2px solid #000; */
-    position: relative;
-    padding: 15vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.child img {
-    height: 100%;
-}
+@media (min-width:600px) {
+    #links {
+    display: block !important;
+    position: static;
+    background-color: inherit;
+    height: auto !important;
+    }
 
 }
 

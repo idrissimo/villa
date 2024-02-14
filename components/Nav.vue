@@ -21,7 +21,7 @@
           </div>
           <div id="icons">
             <i @click="toggleMenu" class="ri-menu-fill"></i>
-            <i class="ri-shopping-cart-2-line"></i>
+            <a href="#booking"><i class="ri-calendar-schedule-fill"></i></a>
           </div>
       </div>
     </div> <!-- .nav -->
@@ -33,6 +33,7 @@ import gsap from 'gsap'
 
 //.mob class toggling
 const isMobile = ref(false)
+
 
 function toggleMenu(){
     //toggle the value of isMobile
