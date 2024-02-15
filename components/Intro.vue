@@ -5,6 +5,9 @@
         <div class="mt-4 lg:mt-0 prose max-w-none leading-loose pr-4 text-brown lg:max-w-md lg:ml-64 pl-4 xl:ml-80 text-base relative z-10">
             <p>Villa privé de plus de 2000m’ avec une grande piscine, 3 chambres dont une master avec dressing, cuisine américaine équipée, salon, 2 salles de bain, sanitaires haut de gamme, terrasse avec une vue sur les montagnes de l’Atlas, piscine et jardin, à proximité du désert d’Agafay, circuits QUAD et Buggy, 5 min en voiture du Lac Lalla Takerkousst…</p>
             <p>Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Takerkousst. Jet Ski au Lac - Circuits en Quad/Buggy - Baptême de Parapente...</p>
+            <p>Villa privé de plus de 2000m’ avec une grande piscine, 3 chambres dont une master avec dressing, cuisine américaine équipée, salon, 2 salles de bain, sanitaires haut de gamme, terrasse avec une vue sur les montagnes de l’Atlas, piscine et jardin, à proximité du désert d’Agafay, circuits QUAD et Buggy, 5 min en voiture du Lac Lalla Takerkousst…
+
+Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Takerkousst. Jet Ski au Lac - Circuits en Quad/Buggy - Baptême de Parapente...</p>
                   
             <div id="caracteristiques" class="mb-8 mt-8">
                 <h3 class="text-green text-3xl lg:text-4xl font-display lg:ml-44 tracking-tight">Nous proposant:</h3>
@@ -23,15 +26,13 @@
                     </ul>
 
                 </div>
-                font-family: 'Inter';
-    font-weight: bold;
             </div>
             <Contact></Contact>
             <!-- <Maps></Maps> -->
         </div>
         <aside class="lg:absolute pt-12 lg:pt-0 -rotate-[4deg] -top-8 lg:-left-96">
                     <img src="~/assets/images/jardin-04.jpg" class="" width="650" alt="La Borghesiana Romana">
-                    <p class="hidden lg:block font-display text-3xl text-tan text-right mt-2 mr-4">41.872490º, 12.664360º</p>
+                    <p class="hidden lg:block font-display text-3xl text-tan text-right mt-2 mr-4">31.623341106437, -7.989680168743</p>
         </aside>
         <aside class="">
             <!-- <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] lg:block absolute -left-[320px] top-[520px]" width="430" alt="Another picture of the grounds at La Borghesiana Romana"> -->

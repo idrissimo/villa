@@ -69,8 +69,11 @@ onMounted(()=>{
 
 </script>
 
-<style>
+<style lang="scss">
 /*General */
+html {
+    scroll-behavior: smooth;
+}
 * {
     margin: 0;
     padding: 0;
@@ -217,6 +220,9 @@ body {
     position: static;
     background-color: inherit;
     height: auto !important;
+    .link {
+        opacity: 1;
+    }
     }
 
 }

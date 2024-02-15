@@ -4,7 +4,7 @@
           <div class="content_inner">
             <div class="content_main">
               <h1 class="content_sub">Villa de charme dans la region de Marrakech</h1>
-              <h2 class="content_heading"><i>Villa</i> de charme <i>de plus de 2000m</i> avec <i>avec une grande piscine.</i></h2>
+              <h2 class="content_heading"><i>Villa</i> de charme <i>de plus de 2000m</i> avec <i>une grande piscine.</i></h2>
             </div>
         
             <div class="content_bottom">
@@ -124,6 +124,7 @@
     opacity: .9;
     overflow: hidden;
     position: absolute;
+    border: 5px solid white;
 }
 .hero .media_video {
     background: #000;
