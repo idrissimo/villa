@@ -1,5 +1,6 @@
 <template>
     <Intro></Intro>
-    <Gallery></Gallery>
+    <SwiperGallery2></SwiperGallery2>
+    <!-- <Gallery></Gallery> -->
     <!-- <Footer></Footer> -->
 </template>

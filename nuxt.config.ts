@@ -48,15 +48,7 @@ export default defineNuxtConfig({
         },
 
       ],
-      script: [
-        // { 
-        //   hid: 'gsap', 
-        //   src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js', 
-        //   defer: true,
-        //   integrity:'sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==',
-        //   referrerpolicy:'no-referrer',
-        //   crossorigin:'anonymous' }
-      ],
+      
       title:'Villa Noure',
     }
     
