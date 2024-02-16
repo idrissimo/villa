@@ -1,7 +1,7 @@
 <template>
 <div class="pageIntor">
-    <div class="max-w-2xl lg:max-w-7xl mx-auto px-4 md:px-8 relative">
-        <h2 class="text-green text-6xl lg:text-huge font-display lg:ml-44 tracking-tight relative z-10">Villa NOUR</h2>
+    <div class="max-w-2xl lg:max-w-7xl mx-auto px-4 md:px-8 relative" id="introduction">
+        <h2 class="text-green text-6xl lg:text-huge font-display lg:ml-44 tracking-tight relative z-10 mt-8 sm:mt-0">Villa NOUR</h2>
         <div class="mt-4 lg:mt-0 prose max-w-none leading-loose pr-4 text-brown lg:max-w-md lg:ml-64 pl-4 xl:ml-80 text-base relative z-10">
             <p>Villa privé de plus de 2000m’ avec une grande piscine, 3 chambres dont une master avec dressing, cuisine américaine équipée, salon, 2 salles de bain, sanitaires haut de gamme, terrasse avec une vue sur les montagnes de l’Atlas, piscine et jardin, à proximité du désert d’Agafay, circuits QUAD et Buggy, 5 min en voiture du Lac Lalla Takerkousst…</p>
             <p>Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Takerkousst. Jet Ski au Lac - Circuits en Quad/Buggy - Baptême de Parapente...</p>
@@ -28,6 +28,11 @@ Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Tak
                 </div>
             </div>
             <Contact></Contact>
+            <div class="lg:hidden">
+                <h3 id="booking" class="mt-4 mb-6 font-bold text-green text-3xl lg:text-4xl font-display tracking-tight uppercase">Localisation:</h3>
+                <Maps class="theMap" width="430"></Maps>
+            </div>
+            
             <!-- <Maps></Maps> -->
         </div>
         <aside class="lg:absolute pt-12 lg:pt-0 -rotate-[4deg] -top-8 lg:-left-96">
@@ -36,11 +41,11 @@ Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Tak
         </aside>
         <aside class="">
             <!-- <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] lg:block absolute -left-[320px] top-[520px]" width="430" alt="Another picture of the grounds at La Borghesiana Romana"> -->
-            <Maps class="theMap lg:absolute rotate-[5deg] lg:block absolute -left-[320px] top-[520px]" width="430"></Maps>
+            <Maps class="theMap hidden lg:block lg:absolute rotate-[5deg] lg:block absolute -left-[320px] top-[520px]" width="430"></Maps>
             <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] -right-16 top-24" width="430" alt="Another picture of the grounds at La Borghesiana Romana">
             <img src="~/assets/images/jardin-01.jpg" class="lg:absolute rotate-[5deg] -right-16 top-24" width="430" alt="Another picture of the grounds at La Borghesiana Romana">
             <img src="~/assets/images/chambre-22.jpg" class="lg:absolute -rotate-[6deg] -right-28 top-[320px]" width="360" alt="Yet another Another picture of the grounds at La Borghesiana Romana">
-            <img src="~/assets/images/jardin-01.jpg" class="lg:absolute -rotate-2 -right-24 top-[520px]" width="440" alt="More grounds at La Borghesiana Romana">
+            <img src="~/assets/images/jardin-01.jpg" class="lg:absolute -rotate-2 -right-24 top-[520px] hidden lg:block" width="440" alt="More grounds at La Borghesiana Romana">
         </aside>        
 
     </div>

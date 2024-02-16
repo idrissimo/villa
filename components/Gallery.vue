@@ -20,7 +20,7 @@
                                     <img src="~/assets/images/chambre-3.jpg" alt="" />
                                     <div class="overlay"><span>Image title</span></div>
                                 </li>
-                                <!-- <li>
+                                <li>
                                     <img src="~/assets/images/cuisine-1.jpg" alt="" />
                                     <div class="overlay"><span>Cuisine</span></div>
                                 </li> 
@@ -31,7 +31,7 @@
                                 <li>
                                     <img src="~/assets/images/chambre-1.jpg" alt="" />
                                     <div class="overlay"><span>Image title</span></div>
-                                </li> -->
+                                </li> 
                             </ul>
                         </div>
                     </div>     

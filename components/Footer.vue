@@ -11,14 +11,27 @@
         </div>
         <div id="footer-menu">
             <ul id="menu-footer1" class="menu flex gap-4">
-                <li><a href="https://yoyo-rent.com/qui-sommes-nous/">Qui sommes-nous</a></li>
-                <li><a href="https://yoyo-rent.com/conditions-de-location/">Conditions générales de location</a></li>
-                <li><a href="https://yoyo-rent.com/contactez-nous/">Contactez-nous</a></li>
+                <li><a href="#introduction">Notre Villa</a></li>
+                <li><a href="#map">Localisation</a></li>
+                <li><a href="#booking">Contactez-nous</a></li>
             </ul>
         </div>
         <div id="footer-logo">
-            <i class="ri-bluesky-fill"></i>
-            <span>VILLA NOURE</span>
+            <svg id="twogood" width="101" height="65" viewBox="0 0 202 135" xmlns="http://www.w3.org/2000/svg" style="transform: translate(0px, 0px);">
+            <g transform="matrix(1,0,0,1,-64.0055,-180.685)">
+                <path d="M88.171,273.185L100.171,183.685L124.171,183.685L124.171,200L154.171,200L154.171,183.685L172.171,183.685L172.171,200L204.171,200L204.171,183.685L228.171,183.685L238.671,273.185C238.671,273.185 165.171,246.685 88.171,273.185Z" style="fill:none;stroke:white;stroke-width:6px;"/>
+                <g transform="matrix(0.863636,0,0,0.888889,24.9779,31.6317)">
+                    <path d="M183.171,232.935C183.171,227.564 180.976,222.414 177.067,218.616C173.158,214.818 167.857,212.685 162.329,212.685C161.751,212.685 161.171,212.685 160.593,212.685C148.762,212.685 139.171,222.003 139.171,233.497L139.171,257.685L183.171,257.685L183.171,232.935Z" style="fill:none;stroke:white;stroke-width:6.85px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,0,-2)">
+                    <path d="M74.171,282.185C74.171,282.185 153.171,238.685 254.171,282.185" style="fill:none;stroke:white;stroke-width:6px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,-9,-22)">
+                    <text x="72.171px" y="336.685px" style="font-family:'BerlinSansFB-Reg', 'Berlin Sans FB', sans-serif;font-size:28px;font-weight: bold;fill: white;">V<tspan x="92.895px 102.914px 120.781px 138.647px 160.492px 170.88px 194.366px 218.057px 239.929px 259.956px " y="336.685px 336.685px 336.685px 336.685px 336.685px 336.685px 336.685px 336.685px 336.685px 336.685px ">ILLA NOURE</tspan></text>
+                </g>
+            </g>
+        </svg>
+          
         </div>
     </div>
             

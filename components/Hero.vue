@@ -4,11 +4,11 @@
           <div class="content_inner">
             <div class="content_main">
               <h1 class="content_sub">Villa de charme dans la region de Marrakech</h1>
-              <h2 class="content_heading"><i>Villa</i> de charme <i>de plus de 2000m</i> avec <i>une grande piscine.</i></h2>
+              <h2 class="content_heading">Villa de plus de 2000m avec une grande piscine.</h2>
             </div>
         
             <div class="content_bottom">
-              <h3 class="bottom_label">Serving the state of <i>California</i></h3>
+              <a href="#gallery" class="bottom_label inline-block border-solid border-2 py-2.5 px-5 mx-auto hover:bg-white hover:text-lime-700">Plus de Photos..<i class="ri-arrow-down-circle-fill"></i></a>
             </div>
         
             </div>
@@ -84,14 +84,26 @@
 }
 .hero .content_heading {
     display: block;
-    font-size: calc(50px + 68 * ((100vw - 420px) / 1020));
-    font-size: calc(3.125rem + 68 * ((100vw - 26.25rem) / 1020));
+    font-size: calc(30px + 68 * ((100vw - 320px) / 1020));
+    font-size:clamp(1.5rem, 2vw + 1rem, 2.5rem);
+    font-size:clamp(1rem, 4vw + 1rem, 10rem);
     line-height: 1.1em;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize;
 }
 .hero .content_bottom {
     font-family: Saol Display;
     display: block;
     flex: 0 0 auto;
+}
+.hero .bottom_label {
+    /* display: block; */
+    font-size: calc(1.375rem + 2 * ((100vw - 26.25rem) / 860));
+    line-height: 1.3em;
+    margin-top: 1.25em;
 }
 .hero .media {
     align-items: stretch;

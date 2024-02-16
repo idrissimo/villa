@@ -4,7 +4,7 @@
     <div id="cursor"></div>
     <div id="main">
       <Hero></Hero>
-        <div id="caracts" class="flex grd-wrapper">
+        <div id="caracts" class="hidden sm:flex grd-wrapper">
             <div class="col grd__box" id="box1">
                 <h3><i class="ri-home-2-fill"></i> Le logement</h3>
                 <p>Charmante Villa avec piscine</p>
@@ -309,8 +309,8 @@ body {
 
 @media (min-width: 1440px){
     .hero .content_heading {
-        font-size: 118px;
-        font-size: 7.375rem;
+        // font-size: 118px;
+        // font-size: 7.375rem;
     }
 }
 
