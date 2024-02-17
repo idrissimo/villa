@@ -52,7 +52,7 @@ export default defineNuxtConfig({
       title:'Villa Noure',
     }
     
-  }
+  },
   
 
 })

@@ -8,7 +8,7 @@
             </div>
         
             <div class="content_bottom">
-              <a href="#gallery" class="bottom_label inline-block border-solid border py-2.5 px-5 mx-auto hover:bg-white hover:text-lime-700 text-lg">Plus de Photos..<i class="ri-arrow-down-circle-fill"></i></a>
+              <a href="#gallery" class="bottom_label inline-block border-solid border py-2.5 px-5 mx-auto hover:bg-white hover:text-lime-700 text-sm">Plus de Photos <i class="ri-arrow-down-circle-fill"></i></a>
             </div>
         
             </div>
@@ -92,7 +92,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 .hero .content_bottom {
     font-family: Saol Display;
@@ -104,6 +104,8 @@
     /* font-size: calc(1.375rem + 2 * ((100vw - 26.25rem) / 860)); */
     line-height: 1.3em;
     margin-top: 1.25em;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
 }
 .hero .media {
     align-items: stretch;

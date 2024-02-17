@@ -72,7 +72,7 @@
         background-color: rgba($color: #404a38, $alpha: 0.8);
         position: absolute;
         top: 0;
-        z-index: 100;
+        z-index: 18;
         width: 100%;
         height: 100%;
     }

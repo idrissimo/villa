@@ -28,9 +28,9 @@
       <div id="nav-part2">
           <div id="links" :class="{ mob: isMobile }">
             <ul class="sm:flex mt-28 sm:mt-0">
-                <li><a href="#" class="link text-3xl sm:text-base font-semibold text-green">Reservez</a></li>
-                <li><a href="#" class="link text-3xl sm:text-base font-semibold">Contactez-nous</a></li>
-                <li> <a href="#" class="link text-3xl sm:text-base font-semibold">Localisation</a></li>
+                <li><a href="#booking" class="link text-3xl sm:text-base text-green font-medium">Reservez</a></li>
+                <li><a href="#booking" class="link text-3xl sm:text-base font-medium">Contactez-nous</a></li>
+                <li> <a href="#map" class="link text-3xl sm:text-base font-medium">Localisation</a></li>
             </ul>
           </div>
           <div id="icons">
@@ -154,7 +154,7 @@ function toggleMenu(){
 
     text-decoration: none;
     color: white;
-    font-weight: bold;
+   
     // font-size: 14px;
     margin: 0 20px;
 }
