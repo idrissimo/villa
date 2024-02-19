@@ -66,6 +66,5 @@ button {
   color: white;
   font-size: 14px;
   border-radius: 16px;
-  margin-top: 50px;
 }
 </style>

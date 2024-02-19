@@ -2,6 +2,12 @@
  <div id="footer-wrapper">
     <div id="bottom-banner">
         <img src="~/assets/images/backyard.jpg" alt="">
+        <Modal v-show="showModal"  @close-modal="showModal = false"></Modal>
+        <div class="save-btn text-center">
+            <p>visiter notre gallerie de photos:</p>
+            <button @click="showModal = true"><i class="ri-gallery-fill"></i> Gallerie</button>
+        </div>
+       
     </div>
     <div id="footer">
         <div id="social-icons">
@@ -40,6 +46,14 @@
 
 </template>
 
+<script setup>
+
+import {ref} from 'vue'
+
+const showModal= ref(false)
+
+</script>
+
 <style lang="scss">
 #footer-wrapper {
     background-color: var(--primary-color);
@@ -66,13 +80,17 @@
 #bottom-banner {
     position: relative;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    &::before {
+    &::after {
         content: '';
         background-color: rgba($color: #404a38, $alpha: 0.8);
         position: absolute;
         top: 0;
-        z-index: 18;
+        z-index: 5;
         width: 100%;
         height: 100%;
     }
@@ -84,6 +102,13 @@
         object-fit: cover;
         height: 100%;
         width: 100%;
+        z-index: 1;
+    }
+
+    .save-btn {
+        
+        z-index: 20;
+       
     }
 
 }
