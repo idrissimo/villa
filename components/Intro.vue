@@ -59,7 +59,7 @@ Située à 35min de Marrakech sur la route d’Amezmiz. 5Km du village Lalla Tak
 .pageIntor {
     
     /* margin-bottom:4rem; */
-    padding-bottom: 0rem;
+    padding-bottom: 3rem;
 }
 .pageIntor h2{
     text-transform: uppercase;

@@ -9,10 +9,10 @@
     class="mySwiper"
   >
     <swiper-slide><img width='400' src="~/assets/images/chambre-1.jpg" alt="" /></swiper-slide>
-    <swiper-slide><img width='400' src="~/assets/images/chambre-1.jpg" alt="" /></swiper-slide>
-    <swiper-slide><img width='400' src="~/assets/images/chambre-1.jpg" alt="" /></swiper-slide>
-    <swiper-slide><img width='400' src="~/assets/images/chambre-1.jpg" alt="" /></swiper-slide>
-    <swiper-slide><img width='400' src="~/assets/images/chambre-1.jpg" alt="" /></swiper-slide>
+    <swiper-slide><img width='400' src="~/assets/images/chambre-2.jpg" alt="" /></swiper-slide>
+    <swiper-slide><img width='400' src="~/assets/images/chambre-3.jpg" alt="" /></swiper-slide>
+    <swiper-slide><img width='400' src="~/assets/images/backyard.jpg" alt="" /></swiper-slide>
+    <swiper-slide><img width='400' src="~/assets/images/jardin-01.jpg" alt="" /></swiper-slide>
   </swiper>
 
 </template>
